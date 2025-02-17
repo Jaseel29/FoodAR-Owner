@@ -2,7 +2,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
 import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js";
 
-// Firebase Configuration (Replace with your credentials)
+// Firebase Configuration from the Firestore database when we build the web app
 const firebaseConfig = {
     apiKey: "AIzaSyBOQOTpLHQLpR9_LqZmhrahUpdihNy6OEA",
     authDomain: "menucard-25f3c.firebaseapp.com",
@@ -14,18 +14,18 @@ const firebaseConfig = {
     measurementId: "G-GJTL9PZKGP"
 };
 
-// Initialize Firebase
+// Initialize Firebase inorder to access the data from the firestore database
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-// Fetch and Display Customer Reviews
+// Fetch and Display Customer Reviews from the firestore database
 async function fetchReviews() {
     const reviewsContainer = document.getElementById("reviewsContainer");
-    reviewsContainer.innerHTML = "<p>Loading reviews...</p>"; // Show loading message
+    reviewsContainer.innerHTML = "<p>Loading reviews...</p>";
 
     try {
         const querySnapshot = await getDocs(collection(db, "Feedback"));
-        reviewsContainer.innerHTML = ""; // Clear loading message
+        reviewsContainer.innerHTML = "";
 
         if (querySnapshot.empty) {
             reviewsContainer.innerHTML = "<p>No reviews available.</p>";
@@ -35,7 +35,6 @@ async function fetchReviews() {
         querySnapshot.forEach((doc) => {
             const data = doc.data();
 
-            // Create Review Card
             const reviewCard = document.createElement("div");
             reviewCard.classList.add("review-card");
 
@@ -53,5 +52,4 @@ async function fetchReviews() {
     }
 }
 
-// Load reviews when the page loads
 window.onload = fetchReviews;
