@@ -2,7 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f8f8f8;
+    background-image: url("./Images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 header {
     background:#FFD84C;
@@ -27,6 +30,7 @@ header {
 h2 {
     font-size: 24px;
     margin-bottom: 20px;
+    color: white;
 }
 #reviewsContainer {
     display: flex;
