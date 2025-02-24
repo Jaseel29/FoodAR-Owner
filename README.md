@@ -77,8 +77,8 @@ Follow these steps to connect Firestore with WebStorm:
 3. Click **Publish**.  
 
 ---
+| Desktop| Mobile |
+|--|--|
+|![Screenshot 2025-02-25 005621](https://github.com/user-attachments/assets/8aa32358-b4bd-4bc7-8f00-c2b3f60e0146)|![WhatsApp Image 2025-02-25 at 00 57 44_e127a6af](https://github.com/user-attachments/assets/912d2062-6782-4290-bc1e-99ebcc801d7f)|
 
-### **5. Run the Web App in WebStorm**  
-- Right-click `index.html` → Click **Run** to launch the web app.  
 
-Now, your Firestore database is successfully connected to WebStorm! 🚀
