@@ -1,3 +1,13 @@
+## FOOD AR WEB APP
+The Food AR Web App was build inorder to fetch the review from the Food AR App. The app fetch details like Name, Phonenumber and Review of the Customer and store it in the Firesstore database. The data from the Firestore database is fetched using an API Key and also it Firebase configuration and is displayed in the webapp in the form of cards. When the reviews are added in the Food AR app it gets added in the firestore database as well get updated in the webapp as new cards formed for each review
+
+## Project Members:
+1. R Harikrishnan
+2. Prabhav Narayanan
+3. Muhammed Jaseel T A
+4. Dipesh V Sabu
+
+
 ### **Setup Firestore in WebStorm for a Web App**  
 
 Follow these steps to connect Firestore with WebStorm:  
