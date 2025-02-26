@@ -3,6 +3,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase
 import { getFirestore, collection, getDocs } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js";
 
 // Firebase Configuration from the Firestore database when we build the web app
+// Replace with your API key and Configurations
 const firebaseConfig = {
     apiKey: "AIzaSyBOQOTpLHQLpR9_LqZmhrahUpdihNy6OEA",
     authDomain: "menucard-25f3c.firebaseapp.com",
