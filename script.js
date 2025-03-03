@@ -54,3 +54,9 @@ async function fetchReviews() {
 }
 
 window.onload = fetchReviews;
+document.addEventListener("DOMContentLoaded", () => {
+    const refreshBtn = document.getElementById("refreshBtn");
+    if (refreshBtn) {
+        refreshBtn.addEventListener("click", fetchReviews);
+    }
+});
