@@ -89,6 +89,5 @@ Follow these steps to connect Firestore with WebStorm:
 ---
 | Desktop| Mobile |
 |--|--|
-|![Screenshot 2025-02-25 005621](https://github.com/user-attachments/assets/8aa32358-b4bd-4bc7-8f00-c2b3f60e0146)|![WhatsApp Image 2025-02-25 at 00 57 44_e127a6af](https://github.com/user-attachments/assets/912d2062-6782-4290-bc1e-99ebcc801d7f)|
-
+|![Screenshot 2025-03-03 210114](https://github.com/user-attachments/assets/677214eb-2a83-40a1-9b5d-c940223443be)|![WhatsApp Image 2025-03-04 at 18 22 36_f640db16](https://github.com/user-attachments/assets/ef1c0cb2-d854-425b-8f24-db5aa9bd28dc)|
 
