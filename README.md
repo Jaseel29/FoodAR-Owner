@@ -1,5 +1,5 @@
 ## FOOD AR WEB APP
-The Food AR Web App was build inorder to fetch the review from the Food AR App. The app fetch details like Name, Phonenumber and Review of the Customer and store it in the Firesstore database. The data from the Firestore database is fetched using an API Key and also it Firebase configuration and is displayed in the webapp in the form of cards. When the reviews are added in the Food AR app it gets added in the firestore database as well get updated in the webapp as new cards formed for each review
+The Food AR Web App was build inorder to fetch the review from the Food AR App. The app fetch details like Name, Phonenumber and Review of the Customer and store it in the Firesstore database. The data from the Firestore database is fetched using an API Key and also it Firebase configuration and is displayed in the webapp in the form of cards. When the reviews are added in the Food AR app it gets added in the firestore database as well get updated in the webapp as new cards formed for each review.
 
 ## Project Contributors:
 - [R Harikrishnan](https://github.com/harikrishnan669)
