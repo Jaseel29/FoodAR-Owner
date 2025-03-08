@@ -7,6 +7,7 @@ The Food AR Web App was build inorder to fetch the review from the Food AR App. 
 - [Dipesh V Sabu](https://github.com/tanx314)
 - [Muhammed Jaseel T A](https://github.com/Jaseel29)
 
+Deployed Link: [FOODAR WEB APP](https://harikrishnan669.github.io/FoodAR-Owner/) for seeing the reviews by the customer.
 
 ### **Setup Firestore in WebStorm for a Web App**  
 
